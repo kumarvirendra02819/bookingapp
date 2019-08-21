@@ -1,0 +1,21 @@
+.countdown{
+    text-align: left;
+}
+
+.countdown .countdown__slots{
+    font-family: 'Rubik', sans-serif;
+    font-size:20px;
+    color:#FC684B;
+    font-weight: 500;
+}
+
+.countdown .countdown__time{
+    font-family: 'Rubik', sans-serif;
+    font-size:18px;
+    color:#000000;
+    font-weight: 500;
+}
+
+.countdown .countdown__time .title{
+    color:#C8C9C9;
+}

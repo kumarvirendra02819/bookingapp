@@ -1,0 +1,39 @@
+.card {
+    padding: 20px;
+    border-radius: 25px !important;
+    margin:20px;
+    border: 0px !important;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    border-radius: 25px !important;
+}
+
+.card-title{
+    font-family: 'Rubik', sans-serif;
+    font-size:18px;
+    color:#118EFF;
+    font-weight: 500;
+}
+
+.card-categories .card-categories-icon{
+    font-size:18px;
+    color:#78E5A1;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+}
+
+.card-categories .card-categories-text{
+    font-family: 'Rubik', sans-serif;
+    font-size:14px;
+    color:#BEBEBF;
+    font-weight: 500;
+}
+
+.card-text{
+    font-family: 'Rubik', sans-serif;
+    font-size:12px;
+    color:#000000;
+}
+
