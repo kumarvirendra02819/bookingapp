@@ -10,22 +10,42 @@ function Categories() {
             <Row>
                 <Col>
                     <FontAwesomeIcon icon={faHamburger} size="2x" />
+                </Col>
+                <Col>
+                    <div>
+                        <FontAwesomeIcon icon={faMonument} size="2x" />
+                    </div>
+                </Col>
+                <Col>
+                    <div>
+                        <FontAwesomeIcon icon={faWarehouse} size="2x" />
+                    </div>
+                </Col>
+                <Col>
+                    <div>
+                        <FontAwesomeIcon icon={faPrayingHands} size="2x" />
+                    </div>
+                </Col>
+                <Col>
+                    <div>
+                        <FontAwesomeIcon icon={faTheaterMasks} size="2x" />
+                    </div>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
                     culinary
                 </Col>
                 <Col>
-                    <FontAwesomeIcon icon={faMonument} size="2x" />
                     historical
                 </Col>
                 <Col>
-                    <FontAwesomeIcon icon={faWarehouse} size="2x" />
                     architectural
                 </Col>
                 <Col>
-                    <FontAwesomeIcon icon={faPrayingHands} size="2x" />
                     religous
                 </Col>
                 <Col>
-                    <FontAwesomeIcon icon={faTheaterMasks} size="2x" />
                     cultural
                 </Col>
             </Row>

@@ -4,7 +4,9 @@ import {
     CardTitle, Row, Col
 } from 'reactstrap';
 import './style.css';
-import { faTree } from '@fortawesome/free-solid-svg-icons'
+import LocationBtn from './../LocationBtn';
+import SortBtn from './../SortBtn';
+import { faTree, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function BookingCard() {
@@ -31,6 +33,9 @@ function BookingCard() {
                 </Row>
                 <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus, nisl ac condimentum sodales, turpis est.</CardText>
             </CardBody>
+            <SortBtn />
+            <LocationBtn />
+            <FontAwesomeIcon icon={faChevronDown} color="#118EFF" />
         </Card>
     );
 }

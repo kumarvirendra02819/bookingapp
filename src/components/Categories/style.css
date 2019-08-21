@@ -5,7 +5,10 @@
     font-weight: 500;
 }
 
-.icon-circle{
-    border-radius: 25%;
+.categories .active-category{
+    border-radius:25px;
+    padding:5px 3px;
+    text-align: center;
     background-color:white;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
 }

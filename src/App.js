@@ -4,6 +4,7 @@ import BookingCard from './components/BookingCard'
 import Countdown from './components/Countdown'
 import Categories from './components/Categories'
 import NavBottom from './components/NavBottom'
+import BookBtn from './components/BookBtn'
 import { Container, Row, Col } from 'reactstrap';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Row>
           <Col>
             <Countdown />
+            <BookBtn />
           </Col>
         </Row>
         <Row>
