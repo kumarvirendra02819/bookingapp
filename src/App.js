@@ -3,6 +3,7 @@ import './App.css';
 import BookingCard from './components/BookingCard'
 import Countdown from './components/Countdown'
 import Categories from './components/Categories'
+import NavBottom from './components/NavBottom'
 import { Container, Row, Col } from 'reactstrap';
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
         </Row>
         <Row>
           <Col>
-            {/* Nav */}
+            <NavBottom />
           </Col>
         </Row>
       </Container>

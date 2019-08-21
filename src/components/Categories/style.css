@@ -4,3 +4,8 @@
     color:#C8C9C9;
     font-weight: 500;
 }
+
+.icon-circle{
+    border-radius: 25%;
+    background-color:white;
+}

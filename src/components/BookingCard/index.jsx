@@ -4,6 +4,8 @@ import {
     CardTitle, Row, Col
 } from 'reactstrap';
 import './style.css';
+import { faTree } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function BookingCard() {
     return (
@@ -16,7 +18,12 @@ function BookingCard() {
                         <div className="card-categories-icon">9</div>
                         <p className="card-categories-text">Overall</p>
                     </Col>
-                    <Col><p className="card-categories-text">Nature</p></Col>
+                    <Col>
+                        <div className="card-categories-icon">
+                            <FontAwesomeIcon icon={faTree} />
+                        </div>
+                        <p className="card-categories-text">Nature</p>
+                    </Col>
                     <Col>
                         <div className="card-categories-icon">3</div>
                         <p className="card-categories-text">Hours</p>
